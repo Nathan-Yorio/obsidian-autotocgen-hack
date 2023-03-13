@@ -2,6 +2,10 @@
 A shell script that uses the python module pdf.tocgen by Krasjet to generate tables of content for my pdfs exported from markdown
 
 ## Using the script
+- make sure you have [pdftocgen](https://github.com/Krasjet/pdf.tocgen) installed with Python
+```sh
+pip install -U pdf.tocgen
+```
 
 - Specify an input pdf, output pdf name for the script, make sure it's executable `chmod +x`
 ```sh
