@@ -29,28 +29,28 @@ font.size = 15.025714874267578
 
 [[heading]]
 # Heading 2
-level = 1
+level = 2
 greedy = true
 font.name = "Inter-SemiBold"
 font.size = 12.020570755004883
 
 [[heading]]
 # Heading 3
-level = 1
+level = 3
 greedy = true
 font.name = "Inter-SemiBold"
 font.size = 10.292613983154297
 
 [[heading]]
 # Heading 4
-level = 1
+level = 4
 greedy = true
 font.name = "Inter-SemiBold"
 font.size = 9.391071319580078
 
 [[heading]]
 # Heading 5
-level = 1
+level = 5
 greedy = true
 font.name = "Inter-SemiBold"
 font.size = 8.414400100708008'
