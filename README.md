@@ -58,10 +58,10 @@ First, I used [Krasjet's pdf.tocgen](https://github.com/Krasjet/pdf.tocgen), whi
 
 ```sh
 pdfxmeta -p 1 -a 1 in.pdf "Heading 1" >> recipe.toml
-pdfxmeta -p 1 -a 1 in.pdf "Heading 2" >> recipe.toml
-pdfxmeta -p 1 -a 1 in.pdf "Heading 3" >> recipe.toml
-pdfxmeta -p 1 -a 1 in.pdf "Heading 4" >> recipe.toml
-pdfxmeta -p 1 -a 1 in.pdf "Heading 5" >> recipe.toml
+pdfxmeta -p 1 -a 2 in.pdf "Heading 2" >> recipe.toml
+pdfxmeta -p 1 -a 3 in.pdf "Heading 3" >> recipe.toml
+pdfxmeta -p 1 -a 4 in.pdf "Heading 4" >> recipe.toml
+pdfxmeta -p 1 -a 5 in.pdf "Heading 5" >> recipe.toml
 ```
 - yes I'm aware this could be even more automatic, but in order to get the headings you need to know the heading titles for it to pull styles
 - since this is only for markdown where my styling isn't changing, this will work for me for every document I export for now
