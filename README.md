@@ -39,7 +39,7 @@ error: bad hierarchy level in row 16
 ###
 ```
 
--incorrect
+- incorrect
 ```
 #
 ###
