@@ -1,6 +1,10 @@
 # obsidian-autotocgen-hack
 A shell script that uses the python module pdf.tocgen by Krasjet to generate tables of content for my pdfs exported from markdown
 
+- A Pic of what this does:
+![](https://github.com/Nathan-Yorio/obsidian-autotocgen-hack/blob/main/2023-03-13_11-46.png)
+
+
 ## Using the script
 - make sure you have [pdftocgen](https://github.com/Krasjet/pdf.tocgen) installed with Python
 ```sh
