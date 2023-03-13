@@ -21,6 +21,33 @@ or...
 
 ./pdf_toc_generator.sh "blahblah.pdf" "blahblahoutput.pdf"
 ```
+
+- if you get an error like:
+```sh
+error: bad hierarchy level in row 16
+```
+- it means that your heading heirarchy has some issues in your exported pdf's markdown header order
+- I struggle with this but the converter doesn't like it when you skip around headers unfortunately
+
+- correct
+```
+#
+##
+###
+####
+####
+###
+```
+
+-incorrect
+```
+#
+###
+##
+####
+```
+
+
 ## How it works
 
 Essentially, I couldn't figure out an easy way to have sidebar tables of content for PDFs that come out of Obsidian. It hasn't been implemented into the editor itself yet as far as I know so I've made this hacky workaround to make it happen at least on the document heading level for me.
@@ -49,28 +76,28 @@ font.size = 15.025714874267578
 
 [[heading]]
 # Heading 2
-level = 1
+level = 2
 greedy = true
 font.name = "Inter-SemiBold"
 font.size = 12.020570755004883
 
 [[heading]]
 # Heading 3
-level = 1
+level = 3
 greedy = true
 font.name = "Inter-SemiBold"
 font.size = 10.292613983154297
 
 [[heading]]
 # Heading 4
-level = 1
+level = 4
 greedy = true
 font.name = "Inter-SemiBold"
 font.size = 9.391071319580078
 
 [[heading]]
 # Heading 5
-level = 1
+level = 5
 greedy = true
 font.name = "Inter-SemiBold"
 font.size = 8.414400100708008
